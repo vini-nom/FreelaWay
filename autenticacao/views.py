@@ -73,7 +73,7 @@ def logar(request):
             return redirect('/auth/login')
         else:
             auth.login(request, user)
-            return redirect('/plataforma')
+            return redirect('/jobs/encontrar_jobs')
 
         if request.user.is_authenticated:
             return redirect('/UsuarioJaLogado')
