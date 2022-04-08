@@ -84,3 +84,5 @@ def sair(request):
      auth.logout(request)
      return redirect('/auth/login')
 
+
+
